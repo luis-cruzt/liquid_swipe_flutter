@@ -36,7 +36,7 @@ class IAmARiderProvider extends ChangeNotifier {
       CurrentUpdateTypeCallback currentUpdateTypeCallback,
       SlidePercentCallback slidePercentCallback,
       bool disableGesture) {
-    slidePercentHor = slidePercentVer = 0.0;
+    slidePercentHor = slidePercentVer = 0.5;
     activePageIndex = initialPage;
     nextPageIndex = initialPage;
     enableLoop = loop;
